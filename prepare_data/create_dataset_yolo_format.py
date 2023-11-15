@@ -14,7 +14,7 @@ for set_ in ['train', 'validation', 'test']:
             shutil.rmtree(dir_)
         os.mkdir(dir_)
 
-alpaca_id = '/m/0pcr'
+alpaca_id = '/m/0k4j'
 
 train_bboxes_filename = os.path.join('.', 'oidv6-train-annotations-bbox.csv')
 validation_bboxes_filename = os.path.join('.', 'validation-annotations-bbox.csv')
