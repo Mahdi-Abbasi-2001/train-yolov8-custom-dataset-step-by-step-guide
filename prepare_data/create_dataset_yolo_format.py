@@ -4,7 +4,7 @@ import shutil
 
 DATA_ALL_DIR = os.path.join('.', 'downloads')
 
-DATA_OUT_DIR = os.path.join('.', 'output')
+DATA_OUT_DIR = os.path.join('.', 'gdrive/My Drive/AICup')
 
 for set_ in ['train', 'validation', 'test']:
     for dir_ in [os.path.join(DATA_OUT_DIR, set_),
